@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.git/
+client.py
+export.py
+test_image.jpg
