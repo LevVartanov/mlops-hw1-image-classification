@@ -32,8 +32,8 @@ jobs:
         with:
           context: .
           push: true
-	tags: |
-	  ghcr.io/levvartanov/mlops-hw1-image-classification:latest
-	  ghcr.io/levvartanov/mlops-hw1-image-classification:${{ github.sha }}
+          tags: |
+            ghcr.io/levvartanov/mlops-hw1-image-classification:latest
+            ghcr.io/levvartanov/mlops-hw1-image-classification:${{ github.sha }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
